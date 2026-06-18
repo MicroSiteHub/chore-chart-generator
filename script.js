@@ -57,15 +57,15 @@ function generate() {
     const row = document.createElement("tr");
 
     const choreCell = document.createElement("td");
-    choreCell.className = "habit-name-cell";
+    choreCell.className = "schedule-name-cell";
     row.appendChild(choreCell);
 
     days.forEach(() => {
       const cell = document.createElement("td");
-      cell.className = "habit-day-cell";
+      cell.className = "schedule-day-cell";
 
       const box = document.createElement("div");
-      box.className = "habit-checkbox";
+      box.className = "schedule-checkbox";
 
       cell.appendChild(box);
       row.appendChild(cell);
